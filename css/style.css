@@ -1,13 +1,15 @@
 * {
-    text-align: center;
     background-color: black;
     color: white;
     font-size: 30px;
+    text-align: center;
 }
 
 img {
     height: auto;
     width: 500px;
+    border: 40px solid red;
+    margin: 20px;
 }
 
 ul {
@@ -17,3 +19,19 @@ ul {
 h1 {
     font-size: 50px;
 }
+
+.alpha {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box {
+    border: 20px solid white;
+    padding: 10px;
+    margin: 20px;
+    background: black;
+    width: min-content;    
+}
+
+

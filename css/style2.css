@@ -5,14 +5,29 @@
 }
 
 div {
-    text-align: center;
+    text-align: right;
 }
 
 img {
     height: auto;
     width: 500px;
+    border: 20px solid white;
+    margin: 20px;
 }
 
 h1 {
     font-size: 50px;
+}
+
+.box {
+    border: 20px solid white;
+    padding: 10px;
+    margin: 20px;
+    background: black;
+    width: min-content;
+    text-align: right;
+}
+
+.text {
+    text-align: center;
 }
