@@ -8,26 +8,30 @@ div {
     text-align: right;
 }
 
-img {
-    height: auto;
-    width: 500px;
-    border: 20px solid white;
-    margin: 20px;
-}
-
-h1 {
-    font-size: 50px;
-}
-
 .box {
     border: 20px solid white;
-    padding: 10px;
+    padding: 20px;
+}
+
+.title {
+    text-align: left;
     margin: 20px;
-    background: black;
-    width: min-content;
-    text-align: right;
+    font-size: 50px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.image {
+    height: auto;
+    width: 500px;
+    border: 10px solid white;
+    margin: 20px;
 }
 
 .text {
     text-align: center;
+    border: 20px solid white;
+    margin: 20px;
+    padding: 10px;
 }
+
