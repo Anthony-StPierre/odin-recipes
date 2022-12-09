@@ -28,7 +28,27 @@
 .text {
     text-align: center;
     border: 20px solid white;
-    margin: 20px;
+    border-top: 0px;
+    border-bottom: 0px;
     padding: 10px;
+}
+
+.container {
+    border: 20px solid white;
+    margin: 0 auto;
+    display: flex;
+}
+
+.unorder {
+    color: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+.order {
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    margin-left: 1500px;
 }
 

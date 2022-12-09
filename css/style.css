@@ -34,4 +34,20 @@ h1 {
     width: min-content;    
 }
 
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+.container > li {
+    flex: 1;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+
 
