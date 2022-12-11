@@ -26,6 +26,15 @@ h1 {
     margin: 20px;
 }
 
+.boxc {
+    border: 20px solid white;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .box {
     border: 20px solid white;
     padding: 10px;
@@ -37,10 +46,9 @@ h1 {
 .container {
     border: 5px solid white;
     width: fit-content;
-    margin: 0px auto;
     display: flex;
     flex-direction: column;
-    flex: 1;
+    align-items: center;
     padding: 10px;
 }
 
@@ -49,7 +57,7 @@ button {
     color: black;
     padding: 5px;
     font-weight: bold;
-    width: 370px;    
+    width: 340px;    
 }
 
 button:hover {
